@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mobile Math Calculator</string>
+    <string name="divided_zero">NaN</string>
+    <string name="wrong_value">"You have the wrong value!!!"</string>
+</resources>
