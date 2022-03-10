@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz!</string>
+    <string name="enter_name">Enter your name:</string>
+    <string name="please_enter_name">Please enter your name</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="above90">You can be proud of yourself!</string>
+    <string name="below90">You have a good job!</string>
+    <string name="result">Result:</string>
+    <string name="tryagain">Try Again</string>
+    <string name="backhome">Back Home</string>
+    <string name="main_title">Android Quiz</string>
+    <string name="msgCorrect">Correct</string>
+    <string name="msgIncorrect">Incorrect</string>
+    <string name="countQuestion">Question %1$d of %2$d:</string>
+    <string name="countResult">%1$d of %2$d (%3$d)</string>
+</resources>

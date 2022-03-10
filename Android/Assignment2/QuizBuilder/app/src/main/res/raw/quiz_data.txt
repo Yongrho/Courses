@@ -1,0 +1,20 @@
+This is the name of the latest Android version.:API Level 32
+This is the name of the previous version to the above:Android 12, Android S, API 31
+This is the name of the first Android version named after sweets.:Cupcake
+This subfolder of app/ contains your app’s Java source code.:java
+This subfolder of app/ contains all the resources of your app such as layout files, images, themes and strings.:res
+This is what Android calls what in other programming environments might be called ‘forms’ or ‘pages’ that the user interacts with.:Activity
+An Android APK file has more in common with this type of file than an .exe file.:zip
+This file contains essential information about your app such as activities, services, permission, intents and basic information like the application name.:manifest
+Lists the Android API build target:build.gradle
+Android's kernel is based on this technology:Linux
+Android uses this virtual machine with just-in-time compilation:Dalvik, ART
+Android applications run in this isolated area of the operating system without access to the rest of the system's resources, unless access permissions are granted by the user at installation time.:sandbox model
+The Android Open Source Project (AOSP) is led by this entity.:Google
+The text that is displayed in an Android application should be stored in this file.:string.xml
+This is the dedicated build system for Android introduced by and supported by Google that replaces Maven and other open source tools for the same purpose.:gradle
+Android uses this technology to control the layout of the user interface.:xml
+This Google supported IDE enables developers to create applications for the Android platform.:Android Studio
+This is the largest proprietary integrated digital content destination that lets developers distribute applications.:Google Play Store
+This is the database technology native to (built into) android.:SQLite
+The Android Runtime consists of these components.:Core libraries and ART virtual machine
