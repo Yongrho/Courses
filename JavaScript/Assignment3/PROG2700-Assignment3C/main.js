@@ -51,14 +51,20 @@
         if (feature.properties && feature.properties.popupContent) {
             layer.bindPopup(feature.properties.popupContent);
         }
-
+/*
         if (feature.properties && feature.properties.directionId) {
             layer.setRotationAngle(180);
         }
+*/
+        if (feature.properties && feature.properties.bearing) {
+            layer.setRotationAngle(feature.properties.bearing);
+        }
+
         layer.myTag = "myGeoJSON";
     }
 
     const setMarkerForBus = function(geoJSON) {
+        console.log(geoJSON);
         geoJSON.map((feature) => {
             L.geoJSON(feature, {
                 pointToLayer: function (feature, latlng) {
@@ -80,11 +86,15 @@
                         popupContentString += ("<br>Occupancy Status: " + entity.vehicle.occupancyStatus);
                     };
 
+/*
+                    // 2022-03-14
+                    // directionId is not to represent the direction of buses
+                    // bearing property should be used                      
                     var direction = 0;
                     if (entity.vehicle.trip.directionId) {
                         direction = entity.vehicle.trip.directionId;
                     };
-
+*/
                     return {
                         type: "Feature",
                             geometry: {
@@ -93,7 +103,8 @@
                             },
                             properties: {
                                 name: entity.vehicle.trip.routeId,
-                                directionId: direction,
+                                bearing: entity.vehicle.position.bearing,
+//                                directionId: direction,
                                 popupContent: popupContentString
                             }
                         }
