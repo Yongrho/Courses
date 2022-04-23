@@ -1,0 +1,41 @@
+<resources>
+    <!-- Languages Preference -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>fr</item>
+    </string-array>
+
+    <string-array name="topping_values">
+        <item>Pepperoni</item>
+        <item>Salami</item>
+        <item>Tomatoes</item>
+        <item>Mushroom</item>
+        <item>Chicken</item>
+        <item>Beef</item>
+    </string-array>
+
+    <string-array name="size_values">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+
+    <string-array name="menu_values">
+        <item>My own pizza</item>
+        <item>Large 4 Topping Pizza</item>
+        <item>Medium 2 Topping Pizza</item>
+        <item>Small 3 Topping Pizza</item>
+        <item>Original Pizza</item>
+        <item>Pepperoni Pizza</item>
+        <item>Cheese Pizza</item>
+        <item>Hawaiians Pizza</item>
+        <item>Vegetarian Pizza</item>
+    </string-array>
+
+</resources>

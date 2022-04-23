@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">CruddyPizza</string>
+    <string name="title_activity_main">Principaux</string>
+    <string name="title_home">Promotion</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_orders">Ordonnances</string>
+    <string name="title_settings">Réglages</string>
+
+    <!-- HomeFragment -->
+    <string name="build_your_pizza">Construire sa propre pizza</string>
+    <string name="dollar_sign">$</string>
+
+    <!-- MenuFragment -->
+    <string name="starting_from">À partir de $</string>
+
+    <!-- Settings -->
+    <string name="language_header">Langue</string>
+    <string name="language_title">Action linguistique par défaut</string>
+
+    <!-- BuildActivity -->
+    <string name="title_activity_build">Construire</string>
+    <string name="size">Taille</string>
+    <string name="toppings">Garnitures</string>
+    <string name="my_pizza">Ma pizza</string>
+    <string name="quantity">Quantité :</string>
+    <string name="btn_continue">Poursuite</string>
+    <string name="my_own_pizza">Ma propre pizza</string>
+
+    <!-- ConfirmOrderActivity -->
+    <string name="order">Ordre</string>
+    <string name="order_message">La pizza sera bientôt servie.\nMerci pour votre commande.</string>
+    <string name="ok">"D'accord."</string>
+    <string name="total_dollar">Total $</string>
+    <string name="order_detail">"Détail de l'ordre"</string>
+    <string name="customer">Client</string>
+    <string name="add_to_order">"Ajouter à l'ordre"</string>
+    <string name="modify">Modifier</string>
+    <string name="remove">Enlever</string>
+
+    <!-- ContactActivity -->
+    <string name="contact_info">Veuillez entrer les coordonnées des personnes-ressources</string>
+    <string name="firstname">Prénom</string>
+    <string name="lastname">Nom de famille</string>
+    <string name="address">Adresse</string>
+    <string name="phone">Téléphone</string>
+    <string name="prompt_email">Courrier électronique</string>
+    <string name="empty_message">"L'article ne peut pas être vide."</string>
+
+</resources>

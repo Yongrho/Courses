@@ -1,0 +1,41 @@
+<resources>
+    <!-- Languages Preference -->
+    <string-array name="language_entries">
+        <item>Anglais</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>fr</item>
+    </string-array>
+
+    <string-array name="topping_values">
+        <item>Pepperoni</item>
+        <item>Salami</item>
+        <item>Tomates</item>
+        <item>Champignon</item>
+        <item>Poulet</item>
+        <item>Bœuf</item>
+    </string-array>
+
+    <string-array name="size_values">
+        <item>Petite</item>
+        <item>Moyen</item>
+        <item>Grande</item>
+        <item>Extra-large</item>
+    </string-array>
+
+    <string-array name="menu_values">
+        <item>Ma propre pizza</item>
+        <item>Grandes pizzas 4 garnitures</item>
+        <item>Moyenne 2 Pizza de garniture</item>
+        <item>Petits 3 pizzas de garniture</item>
+        <item>Pizza originale</item>
+        <item>Pizza pepperoni</item>
+        <item>Pizza au fromage</item>
+        <item>Pizza Hawaïenne</item>
+        <item>Pizza végétarienne </item>
+    </string-array>
+
+</resources>
